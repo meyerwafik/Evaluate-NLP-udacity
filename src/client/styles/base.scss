@@ -1,0 +1,18 @@
+body {
+  
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: linear-gradient(to top, #12527c 0%,#053250);
+  color:white;
+font-size:25 px
+}
+
+main {
+  flex: 2;
+}
+
+section {
+  max-width: 600px;
+  margin: 20px auto;
+}

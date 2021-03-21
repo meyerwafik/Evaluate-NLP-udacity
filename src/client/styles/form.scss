@@ -1,0 +1,40 @@
+form {
+    background: RGBA(255,255,255,0.4);
+    border: 2px solid #08afbb;
+    border-radius: 17px;
+    padding: 20px 40px 20px 40px;
+    text-align: center;
+    box-shadow: 0 6px 20px -14px RGB(0 0 0);
+}
+
+
+
+input {
+    border: 6px solid #08afbb;
+    border-radius: 7px;
+    padding: 10px 25px;
+    width: 100%;
+    line-height: 16px;
+    margin: 10px 0;
+}
+
+
+#output {
+    padding-top: 20px;
+}
+
+#output table{
+    background: RGBA(255, 255, 255, 0.4);
+    border: 3px solid #08afbb;
+    margin: auto;
+}
+
+#output td {
+    padding: 11px 135px 10px 5px;
+    border: 3px solid #08afbb
+}
+
+#output table td:nth-child(1) {
+    font-size: 16px;
+    font-weight: 600; 
+}
