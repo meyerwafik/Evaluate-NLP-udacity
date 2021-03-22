@@ -1,7 +1,11 @@
 function checkURL(entered_url)
     {
-      let reg =  /^(?:http(s)?:\/\/)?[\w.-]+(?:\.[\w\.-]+)+[\w\-\._~:/?#[\]@!\$&'\(\)\*\+,;=.]+$/
-            if (reg.test(entered_url))
+    
+     alert("1")
+     let url_reg = new RegExp(  /^((?:https?:\/\/)?[^.\/]+(?:\.[^.\/]+)+(?:\/.*)?)$/);
+
+alert(url_reg.test(entered_url))
+            if (url_reg.test(entered_url))
             {
               
               return true;
